@@ -3,6 +3,35 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f1b3e4 ;
+    background-color: #879ad3;
     font-family: 'Times New Roman', Times, serif;
+}
+.topo{
+    color: #7abee6;
+    padding: 14px;
+    font-size: 14px;
+}
+
+.topo a{
+
+}
+
+.materia{
+    background-color: rgb(10, 45, 139);
+    padding: 40px;
+    margin-bottom: 40px;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+ display: flex;
+ list-style: none;
+ margin-left: auto;   
+}
+.menu li{
+    margin-left: 40px;
+    
+
 }
