@@ -3,35 +3,68 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #879ad3;
+    background-color:#dbbeda;
     font-family: 'Times New Roman', Times, serif;
 }
 .topo{
-    color: #7abee6;
+    background-color: #dbacda ;
     padding: 14px;
     font-size: 14px;
 }
-
-.topo a{
-
-}
-
 .materia{
-    background-color: rgb(10, 45, 139);
+    background-color: #dbacda;
     padding: 40px;
     margin-bottom: 40px;
-    width: 800px;
+    width: 400px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
 }
 .menu{
- display: flex;
- list-style: none;
- margin-left: auto;   
+    display: flex;
+    list-style: none;
+    margin-left: auto;   
 }
 .menu li{
+    display: flex;
+    list-style: none;
     margin-left: 40px;
-    
+}
+.destaque{
+    background-color:white;
+    text-align: center;
+}
+.grade{
+    display: grid;
+    grid-template-columns: repeat(outo-fill);
+}
+.botao{
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    padding: 25px;
+    display: inline;
+    border-radius: 120px;
+    font-size: 18px;
+    border: 12px;
+    margin-top: 12px;
+}
+.botao:hover{
+    color: #dbbeda;
+}
 
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.texto{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navegacao{
+    display: flex;
+    align-items: center;
 }
