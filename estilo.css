@@ -12,7 +12,7 @@ body{
     font-size: 12px;
 }
 .topo a{
-    color:rgb(219, 237, 240);
+    color:white;
     text-decoration: none;
     font-size: 24px;
 }
@@ -27,7 +27,6 @@ body{
     font-family:'Times New Roman', Times, serif;
     font-size: 12px;
     margin-top: 12px;
-    
 }
 .menu{
     display: flex;
@@ -95,6 +94,8 @@ body{
 .destaque{
     background-color: white;
     text-align: center;
+    padding: 25px;
+    margin-top: 12px;
 }
 
 .navegacao{
@@ -111,6 +112,4 @@ body{
 .main{
     padding: 1px;
 }
-.contato{
-    background-color: #dbacda;
-}
+
