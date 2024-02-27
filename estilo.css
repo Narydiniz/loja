@@ -17,7 +17,7 @@ body{
     font-size: 24px;
 }
 .produto{
-    background-color: #dbacdab0;
+    background-color: #dbacda7c;
     padding: 40px;
     margin-bottom: 40px;
     width: 390px;
@@ -42,16 +42,16 @@ body{
 }
 .nome{
     text-align: center;
-    font-family:fantasy;
-    font-size: 20px;
+    font-family: initial;
+    font-size: 50px;
     margin-left: auto;
     margin-right: auto;
+    color:  #f1f1f1;
 }
 
-.grid-container{
-    display: grid;
+.container{
+    display:grid;
     grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
-    gap: 15px;
    }
 
 .produto img{
@@ -104,9 +104,8 @@ body{
     border-radius: 15px;
     font-size: 16px;
     border: 0;
+    font-family: serif;
 }
 .botao:hover{
     background-color: #eccfec;
 }
-
-
