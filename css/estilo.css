@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#dbbeda;
+    background-color:#f6f5f6;
     font-family: 'Times New Roman', Times, serif;
 }
 .topo{
@@ -17,7 +17,7 @@ body{
     font-size: 24px;
 }
 .produto{
-    background-color: #dbacda7c;
+    background-color: #dbacda ;
     padding: 40px;
     margin-bottom: 40px;
     width: 390px;
@@ -51,8 +51,9 @@ body{
 
 .container{
     display:grid;
-    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
-   }
+    grid-template-columns: repeat(auto-fill,minmax(320px,1fr));
+    gap: 10px;
+}
 
 .produto img{
     width: 100%;
@@ -67,6 +68,7 @@ body{
     text-align: center;
     margin-bottom: 10px;
     font-size: 36px;
+    color: #dbacda;
 }
 .texto{
     text-align:center;
@@ -76,10 +78,11 @@ body{
 }
 
 .destaque{
-    background-color: white;
+    background-color:#dbacda ;
     text-align: center;
     padding: 25px;
     margin-top: 12px;
+    color:white
 }
 
 .navegacao{
@@ -109,3 +112,37 @@ body{
 .botao:hover{
     background-color: #eccfec;
 }
+.rotulo{
+    display: block;
+    margin-bottom: 30px;
+}
+.campo{
+    display: block; 
+    width: 100%;
+    width: 30px;
+    font-size: 18px;
+    padding-left: 270px;
+    border: none;
+    background-color: #e7dee7;
+    border-radius: 20px;
+}
+textarea.campo{
+    height: 150px;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+.campo:focus{
+    background-color: #eeeeee;
+    outline: none;
+}
+.carrinho{
+    background-color: #dbacda;
+    padding: 30px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    max-width: 320px;
+}
+
+
